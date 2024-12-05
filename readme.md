@@ -56,6 +56,31 @@ which are the data types are false and truthy value in JS
    -> All values are truthy unless they are defined as falsy.   
    -> That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, NaN, and document.all.
 
+### Data Type Conversion 
+> ##### Conversion to number  
+> 1. String => number/NaN   
+> 2. null=> 0  
+> 3. boolean=>1/0
+
+> ##### Conversion to boolean
+>  1. number=>boolean true/false
+>  2. string=>boolean true/false
+>  3. undefined=>false
+>  4. null=>false
+
+> ##### Convert to String
+> 1. number=>String
+> 2. boolean=>String
+> 3. null=> String
+> 4. undefined=>String
+
+### Mathematical Operation on String Data (as a number)
+> #### If string is a number then only these operation are executed
+>   string +string=>string  
+>   string -string=>number  
+>   string *string=>number   
+>   string /string=>number  
+
 
 ### Interview Questions belongs to Data Types
  1) what are the different data types in JS 
