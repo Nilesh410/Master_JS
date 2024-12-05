@@ -1,5 +1,5 @@
 # Master in JAVA Script 
-## Introduction to JS 
+## 1. Introduction to JS 
 JAVA script has invented by Brendan Eich in 1995 after it was standered by ECMA in 1997
 
 **ECMA** :- European Computer Manufactures Association  
@@ -34,7 +34,7 @@ console.log("Message/value to display")
   | -----     | ------ |
   | JS ES6 | JS Code Snippet |
 
-## Data Types in JS
+## 2. Data Types in JS
   Different Data Types in JS     
 
     A) Primitive Data Types 
