@@ -50,6 +50,7 @@ console.log("Message/value to display")
        - array
        - object   
 ### Truthy and Falsy Value 
+  (Refer 3_truthy_falsy.js)  
 which are the data types are false and truthy value in JS  
    -> Truthy value is a value that is considered true when encountered in a Boolean context  
    -> All values are truthy unless they are defined as falsy.   
