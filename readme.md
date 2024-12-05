@@ -31,10 +31,27 @@ console.log("Message/value to display")
   
 ## Extensions to Download
   | Extension | Purpose |
-  | -----| ------ |
+  | -----     | ------ |
   | JS ES6 | JS Code Snippet |
 
 ## Data Types in JS
-There are two types of data types in JS  
-1. Primitive Data Types 
-2. Non Primitive Data Types 
+  Different Data Types in JS     
+
+    A) Primitive Data Types 
+       -Numbers
+       -Bigint
+       -String
+       -undefined
+       -null
+       -boolean
+       -symbol
+
+    B) Non Primitive Data Types
+       - array
+       - object
+### Interview Questions belongs to Data Types
+ 1) what are the different data types in JS 
+ 2) what is the data type of NaN 
+ 2) what is the difference between Nan and null  
+ 3) what is difference between function calling using functionname() and console.log(functionname())   
+ 4) what are the different ways to define function in JS?  
