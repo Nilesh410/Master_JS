@@ -38,20 +38,30 @@ console.log("Message/value to display")
   Different Data Types in JS     
 
     A) Primitive Data Types 
-       -Numbers
+       -Numbers (Refer 1_example.js)
+       -String  (Refer 1_example.js)
        -Bigint
-       -String
-       -undefined
-       -null
-       -boolean
+       -undefined (Refer 2_undefined_null.js)
+       -null (Refer 2_undefined_null.js)
+       -boolean (Refer 1_example.js)
        -symbol
 
     B) Non Primitive Data Types
        - array
-       - object
+       - object   
+### Truthy and Falsy Value 
+which are the data types are false and truthy value in JS  
+   -> Truthy value is a value that is considered true when encountered in a Boolean context  
+   -> All values are truthy unless they are defined as falsy.   
+   -> That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, NaN, and document.all.
+
+
 ### Interview Questions belongs to Data Types
  1) what are the different data types in JS 
  2) what is the data type of NaN 
- 2) what is the difference between Nan and null  
- 3) what is difference between function calling using functionname() and console.log(functionname())   
- 4) what are the different ways to define function in JS?  
+ 3) what is the difference between Nan and null and undefined  
+ 4) what is difference between function calling using functionname() and console.log(functionname())   
+ 5) what is the data type of null
+ 6) Is null has a memory allocation?
+ 7) when NaN is used?
+ 8) 
