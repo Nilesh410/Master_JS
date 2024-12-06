@@ -94,12 +94,12 @@ which are the data types are false and truthy value in JS
 
 ## 3. Variable Decleration 
 #### There are three ways to declare the variable in JS  
-  1. var  (Refer 3_Variable_Decl)  
+  1. **var** (Refer 3_Variable_Decl)  
       A. var is global scope and functional scope  
       B. You can redeclare in any type of function (function decleration, function expression) its works similer  
       C. You can access the var type of variable before its decleration bcoz of hoisting   
       D. if you dont declare but try to access that then its shows reference error var variabel not defined    
-  2. let 
-  3. const
+  2. **let** 
+  3. **const**
 #### Conclusion
 
