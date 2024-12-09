@@ -10,7 +10,7 @@ function display(name)
 } */
 
 /* result("Nilesh") //error for var as well as let.const variable 
-const result=function(name)
+var result=function(name)
 {
     console.log(`My name is ${name}`)
 } */
