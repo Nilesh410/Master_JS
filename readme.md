@@ -124,11 +124,11 @@ Questions Related with the scoping:-
 12) what is global execution context?
 
 ## 4 Function 
-#### 1.what is the function?
+ #### 1. what is the function?
   -> Function :- performing the perticular task or operation and we can call multiple time without 
     writing reapeadly
 
-#### 1.what is the syntax of function // way to define function in JS 
+ #### 2. what is the syntax of function // way to define function in JS 
   -> There are different way to define function in JS  
 
     1. Function Decleration/ function Definition / Function Constant   
@@ -194,8 +194,32 @@ Questions Related with the scoping:-
             //access properties
             console.log(person.name);
             console.log(person.age);
-  #### Rest Operator 
-    Function with rest operator   
-    -> If function dont know how many parameter they have to take then they used rest operator or we dont know exactly how many argument will be passing to the function definition in the function     
+
+  #### 3. Rest Operator   
+  Function with rest operator   
+     -> If function dont know how many parameter they have to take then they used rest operator or we dont know exactly how many argument will be passing to the function definition in the function     
     -> Definition we used the rest operator.  
        Syntax :- ...variable name 
+
+ #### 4. Object and array as an argument
+  -> We can pass the object and array as an argument to the function (Refer 4_example.js)
+
+ #### 5. Higher Order and Call back function 
+  -> A function that returns a function or 
+     takes other functions as arguments is called a higher-order function. 
+     every, map, filter, setTimeout these are the higher order function 
+   -> Function that pass to function as a argument then it is  called as call back function 
+
+ #### Interview Question on Function  
+  1. what is the function? 
+  2. How to define the function in JS? which are the diff way?
+  3. what is the rest operator ...variable name
+  4. Can we pass object and array as an argument for the function?
+  5. what is higher order function?
+  6. what is call back function?
+  7. what is first order function?
+  8. what is arrow function in JS?
+  9. Can we call call back function recursively?
+  10. Can we used higher order function as a call back function?
+  11. Can we call arrow function recursively?
+
