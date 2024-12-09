@@ -194,3 +194,8 @@ Questions Related with the scoping:-
             //access properties
             console.log(person.name);
             console.log(person.age);
+  #### Rest Operator 
+    Function with rest operator   
+    -> If function dont know how many parameter they have to take then they used rest operator or we dont know exactly how many argument will be passing to the function definition in the function     
+    -> Definition we used the rest operator.  
+       Syntax :- ...variable name 
