@@ -247,4 +247,12 @@ Questions Related with the scoping:-
   -> Defer :- The defer attribute in HTML is used with script elements to control the execution timing of an external JavaScript file. It ensures the script is executed after the HTML document has been fully parsed.
   -> The defer attribute is a great way to optimize the loading and execution of external JavaScript files, ensuring smoother page rendering and better user experience. It’s especially useful for scripts that manipulate or interact with the DOM.
 
-  
+ #### Interview Question 
+  1. what is the execution context ? 
+  2. what is hoisting? 
+  3. what is temporal dead zone? 
+  4. How to debug JS code (in browser as well as vs code)
+  5. what is break point ? 
+  6. what is the use of debugger keyword in code? 
+  7. what is the use of defer attribute ? 
+  8. 

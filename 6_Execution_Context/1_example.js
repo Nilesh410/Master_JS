@@ -1,4 +1,4 @@
-debugger //use to debug the code line by line and defer used for execution of html if script is waiting for execution 
+//debugger //use to debug the code line by line and defer used for execution of html if script is waiting for execution 
 console.log("Hello JS")
 var name1 = "Nilesh Shirude"
 let age = 35
