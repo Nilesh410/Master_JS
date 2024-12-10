@@ -28,6 +28,8 @@ console.log("Message/value to display")
   | ctrl+l | shortcute for erase |
   | ctrl+/ | comments |
   | ctrl+shift+p| open command palllate |
+  | shift+alt+A | comment for multiple lines|
+  | shift+alt+F | allign or format the code properly|
   
 ## Extensions to Download
   | Extension | Purpose |
