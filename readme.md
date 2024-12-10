@@ -224,5 +224,7 @@ Questions Related with the scoping:-
   11. Can we call arrow function recursively?(Refer 4_Function_JS-> 5_example)
   12. How to create function using constructor? 
   13. How to create object using constructor function?
-  
-
+  14. what are the way to call function in JS? (Refer 9_example.js)
+  15. what is an execution context?
+  16. what is call stack ?
+  17. what is this keyword? what is the value hold by this keyword? (Refer 5_this_keyword->1_example.js)
