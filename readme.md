@@ -229,5 +229,6 @@ Questions Related with the scoping:-
   16. what is call stack ?
   17. what is this keyword? what is the value hold by this keyword? (Refer 5_this_keyword->1_example.js)
   18. which are the different type of scope in JS explain with example.
-  19.what is lexical scope in the program? Expain with example(5_this_keyword->2_example.js)
-  20. what is the value of this in arrow function with different senerio? 
+  19. what is lexical scope in the program? Expain with example(5_this_keyword->2_example.js)
+  20. what is the value of this in arrow function with different senerio? (Refer 3_example.js)
+  21. Solve some coding questions on this (Refer 4_Q_A.js)
