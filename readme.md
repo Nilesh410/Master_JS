@@ -234,3 +234,17 @@ Questions Related with the scoping:-
   19. what is lexical scope in the program? Expain with example(5_this_keyword->2_example.js)
   20. what is the value of this in arrow function with different senerio? (Refer 3_example.js)
   21. Solve some coding questions on this (Refer 4_Q_A.js)
+
+## 5 Execution Context 
+ #### Execute JS Code Internally 
+  -> JS Code execute internally in two phases called as memory creation phase and code execution phase.   
+  -> In memory creation phase JS engine just allocates the memory for the variable and function but do not assign any value to the variable   
+  -> In code execution phase JS engine assign the value to the variable and executue the function   
+  -> That process we called as excution context   
+  -> Same procedure will be followed for the every function which is mentioned in the source code   
+ #### Debugger 
+  -> By using debugger we can debug the code line by line and observed the output of each line  
+  -> Defer :- The defer attribute in HTML is used with script elements to control the execution timing of an external JavaScript file. It ensures the script is executed after the HTML document has been fully parsed.
+  -> The defer attribute is a great way to optimize the loading and execution of external JavaScript files, ensuring smoother page rendering and better user experience. It’s especially useful for scripts that manipulate or interact with the DOM.
+
+  
