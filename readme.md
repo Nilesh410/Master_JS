@@ -35,6 +35,7 @@ console.log("Message/value to display")
   | Extension | Purpose |
   | -----     | ------ |
   | JS ES6 | JS Code Snippet |
+  | Code Spell Checker| Spell Checking|
 
 ## 2. Data Types in JS
   Different Data Types in JS     
@@ -125,12 +126,12 @@ Questions Related with the scoping:-
 11) what is execution context?
 12) what is global execution context?
 
-## 4 Function 
- #### 1. what is the function?
+## 4. Function 
+#### 1. what is the function?
   -> Function :- performing the perticular task or operation and we can call multiple time without 
     writing reapeadly
 
- #### 2. what is the syntax of function // way to define function in JS 
+#### 2. what is the syntax of function // way to define function in JS 
   -> There are different way to define function in JS  
 
     1. Function Decleration/ function Definition / Function Constant   
@@ -197,22 +198,22 @@ Questions Related with the scoping:-
             console.log(person.name);
             console.log(person.age);
 
-  #### 3. Rest Operator   
+#### 3. Rest Operator   
   Function with rest operator   
      -> If function dont know how many parameter they have to take then they used rest operator or we dont know exactly how many argument will be passing to the function definition in the function     
     -> Definition we used the rest operator.  
        Syntax :- ...variable name 
 
- #### 4. Object and array as an argument
+#### 4. Object and array as an argument
   -> We can pass the object and array as an argument to the function (Refer 4_example.js)
 
- #### 5. Higher Order and Call back function 
+#### 5. Higher Order and Call back function 
   -> A function that returns a function or 
      takes other functions as arguments is called a higher-order function. 
      every, map, filter, setTimeout these are the higher order function 
    -> Function that pass to function as a argument then it is  called as call back function 
 
- #### Interview Question on Function  
+#### Interview Question on Function  
   1. what is the function? 
   2. How to define the function in JS? which are the diff way?
   3. what is the rest operator ...variable name
@@ -235,19 +236,19 @@ Questions Related with the scoping:-
   20. what is the value of this in arrow function with different senerio? (Refer 3_example.js)
   21. Solve some coding questions on this (Refer 4_Q_A.js)
 
-## 5 Execution Context 
- #### Execute JS Code Internally 
+## 5&6. Execution Context 
+#### Execute JS Code Internally 
   -> JS Code execute internally in two phases called as memory creation phase and code execution phase.   
   -> In memory creation phase JS engine just allocates the memory for the variable and function but do not assign any value to the variable   
   -> In code execution phase JS engine assign the value to the variable and executue the function   
   -> That process we called as excution context   
   -> Same procedure will be followed for the every function which is mentioned in the source code   
- #### Debugger 
+#### Debugger 
   -> By using debugger we can debug the code line by line and observed the output of each line  
   -> Defer :- The defer attribute in HTML is used with script elements to control the execution timing of an external JavaScript file. It ensures the script is executed after the HTML document has been fully parsed.
   -> The defer attribute is a great way to optimize the loading and execution of external JavaScript files, ensuring smoother page rendering and better user experience. It’s especially useful for scripts that manipulate or interact with the DOM.
 
- #### Interview Question 
+#### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 
   3. what is temporal dead zone? 
@@ -255,4 +256,9 @@ Questions Related with the scoping:-
   5. what is break point ? 
   6. what is the use of debugger keyword in code? 
   7. what is the use of defer attribute ? 
-  8. 
+
+## 7. Dialog Box in JAVA Script (Refer 7_Dialog_Box)
+##### There are three type of dialog box in JS  
+  1. alert(message) 
+  2. confirm(message)
+  3. prompt(message)
