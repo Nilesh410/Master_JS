@@ -307,7 +307,18 @@ Questions Related with the scoping:-
 ## 9. Operators 
    Operators means perform the operation on two operands 
 ##### **1. Different type of operators** 
-A. Arithmetic Operator (+ - * / % ** ) 
+A. Arithmetic Operator (+ - * / % ** )   
+
+**Math**:- By using Math object we can solve any type of mathematical operation 
+As well as its provide the some Math properties
+
+**Math Property:-** pi, E, log2
+**Math Function:-**
+ 1. Math.pow(first, end)=>exponential value
+ 2. Math.sqrt(number)=>sqrt of number
+ 3. Math.floor()=> Returns the greatest integer less than or equal to its numeric argument
+ 4. Math.ceil()=>Returns the smallest integer greater than or equal to its numeric argument
+ 5. Math.round()=> Returns a supplied numeric expression rounded to the nearest integer.
 
 
 
