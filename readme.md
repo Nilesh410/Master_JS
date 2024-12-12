@@ -30,6 +30,7 @@ console.log("Message/value to display")
   | ctrl+shift+p| open command palllate |
   | shift+alt+A | comment for multiple lines|
   | shift+alt+F | allign or format the code properly|
+  | ctrl +s | open all function and property list |
   
 ## Extensions to Download
   | Extension | Purpose |
@@ -262,3 +263,35 @@ Questions Related with the scoping:-
   1. alert(message) 
   2. confirm(message)
   3. prompt(message)
+
+## 8. String (Refer 8_String->1_example.js)
+##### ***String Creation and its functions*** 
+   ***String*** :- In JS string an one of the data type   
+   ***Creation of String***:- 
+   ***Syntax:-*** variable declaration variable name="String" 
+   e.g. let city_name='Pune' 
+
+   ***Property:-*** Every string has length which is find out by length property 
+     city_name.length
+
+  ***Function belong to String :-*** 
+
+  **Methods (without arguments)**   
+    **1. toUpperCase():-** to convert in uppercase   
+    **2. toLowerCase():-** to convert in lowercase   
+    **3. trim():-** to remove starting and ending white space   
+    **4. trimEnd()-** remove only ending white space   
+    **5. trimStart()-**remove only starting white space   
+  But in these functions original string will not be changed   
+
+  **Methods (with arguments):-**   
+    **1. includes("string value")**=>check the argument value is present or not (result true /false). It is case sensitive (Refer 1_example.js)  
+    **2. indexOf('character')**=> its return the first index of given argument character from the input string. Shows -1 when char is not present. Also find out the index of any substring  
+    **3. replace()**=>its replace the first occurrence of char or string from the input     
+    **4. replaceAll()**=>replace all occurrence of mentioned argument char and string     
+    **Replace function  does not change the original string**   
+    **5. concat(str1,str2)**=>concat multiple string with original string   
+    **6. padEnd/padStart(output string length, "padding char")**=> return string with padding char either beginning or ending its depends on function   
+    **7. charAt(index)**=>find out the char at that index   
+    **8. charCodeAt(index)**=>Return the unique no of particular char at that index 
+
