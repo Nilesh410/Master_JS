@@ -72,5 +72,17 @@ console.log(msg.charAt(45))//return nothing
 //charCodeAt(index)=>return unicode value of the char present at that index
 console.log(msg.charCodeAt(0))
 
+//split(" ")=> Split a string into substrings using the specified separator and return them as an array.
+const split_string=msg.split(" ")
+console.log(split_string)
+console.log(msg) //original string is at is 
 
+/* slice()=> Returns a section of a string.
 
+ start — The index to the beginning of the specified portion of stringObj.
+ end -
+    The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj. */
+
+const sub_message=msg.slice(0,6)
+console.log(sub_message) //Mumbai
+console.log(msg) //original string is at is 
