@@ -298,4 +298,10 @@ Questions Related with the scoping:-
     **10. slice(start,end)**=> Returns a section of a string.  
         start — The index to the beginning of the specified portion of stringObj.  
         end -The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
+##### **Interview Questions**
+ 1. what is string in JS? 
+ 2. How to create or declare the sting in JS?
+ 3. what are the properties and function related to the string ?
+ 4. what is the difference between split and splice function ?
+ 
 
