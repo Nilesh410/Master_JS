@@ -303,5 +303,11 @@ Questions Related with the scoping:-
  2. How to create or declare the sting in JS?
  3. what are the properties and function related to the string ?
  4. what is the difference between split and splice function ?
- 
+
+## 9. Operators 
+   Operators means perform the operation on two operands 
+##### **1. Different type of operators** 
+A. Arithmetic Operator (+ - * / % ** ) 
+
+
 
