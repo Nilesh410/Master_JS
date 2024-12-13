@@ -24,3 +24,7 @@ console.log(Math.random())
 
 //Number between 11 to 20 
 console.log(Math.round(Math.random()*10)+11)
+console.log(Math.round(Math.random()*25)+25)
+
+let result="Hello"-5
+console.log(result)
