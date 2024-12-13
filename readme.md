@@ -321,5 +321,12 @@ As well as its provide the some Math properties
  5. Math.round()=> Returns a supplied numeric expression rounded to the nearest integer.
  6. Math.random()=> Generate random number (0 to 1)
 
+##### **Interview Question 
+ 1. what is the use of Math object?
+ 2. what are the functions in Math object and there use, explain with example?
+ 3. How to generate any random number in particular range
+ 4. what is type conversion and type coercion and their diff? 
+ 5. what is truthy and falsy value? 
+
 
 
