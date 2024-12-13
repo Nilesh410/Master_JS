@@ -19,3 +19,8 @@ console.log(Math.round(23.45))//23
 console.log(Math.round(45.89))//46
 
 console.log(Math.round(-2.456))//-2
+
+console.log(Math.random())
+
+//Number between 11 to 20 
+console.log(Math.round(Math.random()*10)+11)

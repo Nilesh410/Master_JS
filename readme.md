@@ -294,7 +294,7 @@ Questions Related with the scoping:-
     **6. padEnd/padStart(output string length, "padding char")**=> return string with padding char either beginning or ending its depends on function   
     **7. charAt(index)**=>find out the char at that index   
     **8. charCodeAt(index)**=>Return the unique no of particular char at that index   
-    **9. split(" ")**=> Split a string into substrings using the specified separator and return them as an array.
+    **9. split(" ")**=> Split a string into substrings using the specified separator and return them as an array.  
     **10. slice(start,end)**=> Returns a section of a string.  
         start — The index to the beginning of the specified portion of stringObj.  
         end -The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
@@ -312,13 +312,14 @@ A. Arithmetic Operator (+ - * / % ** )
 **Math**:- By using Math object we can solve any type of mathematical operation 
 As well as its provide the some Math properties
 
-**Math Property:-** pi, E, log2
+**Math Property:-** pi, E, log2  
 **Math Function:-**
  1. Math.pow(first, end)=>exponential value
  2. Math.sqrt(number)=>sqrt of number
  3. Math.floor()=> Returns the greatest integer less than or equal to its numeric argument
  4. Math.ceil()=>Returns the smallest integer greater than or equal to its numeric argument
  5. Math.round()=> Returns a supplied numeric expression rounded to the nearest integer.
+ 6. Math.random()=> Generate random number (0 to 1)
 
 
 
