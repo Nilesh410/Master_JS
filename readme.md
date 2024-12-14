@@ -336,6 +336,11 @@ As well as its provide the some Math properties
  **4. Strict Not Equal (!==)=>** It check data type as well as value   
  **5. Greater than (>) and Greater than equal(>=)=>** Its check greater than or not   
  **6. Less than (<) Less than equal (<=)=>** It check first no is less with second number or not
+###### **Interview Questions**
+1. what is logical operator?
+2. what are logical operators in JS?
+3. what is the difference between equality and strict equality operator?
+4. Explain the use of != and !== 
 
 
 
