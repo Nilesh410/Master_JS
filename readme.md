@@ -328,7 +328,7 @@ As well as its provide the some Math properties
  4. what is type conversion and type coercion and their diff? 
  5. what is truthy and falsy value? 
 
- **B. Logical Operator**  
+ **B. Compare Operator**  
  **1. Equality Operator (==) (Equal to)=>** It converts the value implicitly   
  **2. Strict Equality Operator(===)=>** It does not convert the value in different data type       
   =>Its check data type as well as value of the variable   
@@ -337,10 +337,26 @@ As well as its provide the some Math properties
  **5. Greater than (>) and Greater than equal(>=)=>** Its check greater than or not   
  **6. Less than (<) Less than equal (<=)=>** It check first no is less with second number or not
 ###### **Interview Questions**
-1. what is logical operator?
-2. what are logical operators in JS?
+1. what is compare operator?
+2. what are compare operators in JS?
 3. what is the difference between equality and strict equality operator?
 4. Explain the use of != and !== 
+
+**C. Logical Operator**   
+
+**1. Logical And/OR operator (&&/||)**
+  -> It perform logical and/or  operation between two relational expression
+  -> Also it perform the logical operation on truthy and falsy value
+**2. Logical Bitwise Operator (&/|)**
+   -> Logical operation on bit level 
+**3. Not Operator (!)**
+ -> Change the boolean status of the value 
+###### **Interview Question **
+ 1. what are the logical operators in JS?
+ 2. what is logical operator and there used?
+ 3. Example of logical operators?
+ 
+
 
 
 
