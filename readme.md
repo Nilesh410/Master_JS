@@ -307,7 +307,7 @@ Questions Related with the scoping:-
 ## 9. Operators 
    Operators means perform the operation on two operands 
 ##### **1. Different type of operators** 
-A. Arithmetic Operator (+ - * / % ** )   
+**A. Arithmetic Operator (+ - * / % ** )**   
 
 **Math**:- By using Math object we can solve any type of mathematical operation 
 As well as its provide the some Math properties
@@ -327,6 +327,15 @@ As well as its provide the some Math properties
  3. How to generate any random number in particular range
  4. what is type conversion and type coercion and their diff? 
  5. what is truthy and falsy value? 
+
+ **B. Logical Operator**  
+ **1. Equality Operator (==) (Equal to)=>** It converts the value implicitly   
+ **2. Strict Equality Operator(===)=>** It does not convert the value in different data type       
+  =>Its check data type as well as value of the variable   
+ **3. Not Equal Operator (!=) =>** It converts data type implicitly  
+ **4. Strict Not Equal (!==)=>** It check data type as well as value   
+ **5. Greater than (>) and Greater than equal(>=)=>** Its check greater than or not   
+ **6. Less than (<) Less than equal (<=)=>** It check first no is less with second number or not
 
 
 
