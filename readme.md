@@ -351,11 +351,11 @@ As well as its provide the some Math properties
    -> Logical operation on bit level 
 **3. Not Operator (!)**
  -> Change the boolean status of the value 
-###### **Interview Question **
+###### **Interview Question**
  1. what are the logical operators in JS?
  2. what is logical operator and there used?
  3. Example of logical operators?
- 
+
 
 
 

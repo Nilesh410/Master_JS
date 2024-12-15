@@ -2,7 +2,7 @@
 //In arrow function this value should be find by lexically 
 
 const myArrow=()=>{
-    console.log(this) //find out lexically from own scoep to global scope
+    console.log(this) //find out lexically from own scope to global scope
     //node js -> empty object 
     //browser -> window
 }
@@ -13,14 +13,14 @@ function lex()
     const my_Arrow=()=>{
         console.log(this)
     }
-    my_Arrow() //show gloal Object from lex function  
+    my_Arrow() //show global Object from lex function  
 }
 lex() 
 
 lex.call({}) //show the empty object 
 
 const obj={
-    msessage:"Hey Hi",
+    message:"Hey Hi",
     arrow:()=>{
         console.log(this.message)
     }

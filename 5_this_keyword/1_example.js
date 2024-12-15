@@ -25,7 +25,7 @@ new showMessage()
 
 
 //3
-showMessage.call({age:35})
+//showMessage.call({age:35})
 
 //4 
 const obj={
