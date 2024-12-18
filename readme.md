@@ -37,6 +37,7 @@ console.log("Message/value to display")
   | -----     | ------ |
   | JS ES6 | JS Code Snippet |
   | Code Spell Checker| Spell Checking|
+  | Prettier | For code Formatter |
 
 ## 2. Data Types in JS
   Different Data Types in JS     
@@ -355,6 +356,14 @@ As well as its provide the some Math properties
  1. what are the logical operators in JS?
  2. what is logical operator and there used?
  3. Example of logical operators?
+
+## 10. Statements 
+##### **A. Condition Statement (Refer 10_Condition_Stat)** 
+  1. If Statement
+  2. If Else Statement 
+  3. IF else if statement 
+  4. Nested If else statement 
+
 
 
 
