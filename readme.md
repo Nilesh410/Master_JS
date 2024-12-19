@@ -365,6 +365,8 @@ As well as its provide the some Math properties
   2. If Else Statement 
   3. IF else if statement 
   4. Nested If else statement 
+  5. switch case statement:- In switch case statement, choice value always check on strictly equality basis with label
+  
 
 
 
