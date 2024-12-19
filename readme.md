@@ -366,7 +366,25 @@ As well as its provide the some Math properties
   3. IF else if statement 
   4. Nested If else statement 
   5. switch case statement:- In switch case statement, choice value always check on strictly equality basis with label
-  
+  6. Ternary Operator :- 
+
+##### Interview Question 
+ 1. What is the fundamental difference between ternary operator and if else statements?
+  Summary Table
+**Feature	Ternary Operator**	
+Syntax	condition ? expr_if_true : expr_if_false	
+Primary Use	Single value assignment/evaluation.	
+Readability	Concise for simple cases.
+Output	Returns a value.
+Side Effects	Not ideal for side effects.
+**If-Else Statement**
+Syntax Multi-line with if, else blocks.
+Primary Use Complex logic and multiple actions.
+Readability Clear for complex conditions.
+Output Executes a block of statements.
+ Side Effects	Can handle side effects.
+ 2. Can you explain why expressions can appear within statements but statements cannot appear within expressions in JavaScript?
+ 
 
 
 
