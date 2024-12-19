@@ -31,6 +31,8 @@ console.log("Message/value to display")
   | shift+alt+A | comment for multiple lines|
   | shift+alt+F | allign or format the code properly|
   | ctrl +s | open all function and property list |
+  | ctrl + D | select one more repeated part |
+
   
 ## Extensions to Download
   | Extension | Purpose |
