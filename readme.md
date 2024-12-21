@@ -383,7 +383,7 @@ Primary Use Complex logic and multiple actions.
 Readability Clear for complex conditions.
 Output Executes a block of statements.
  Side Effects	Can handle side effects.
- 2. Can you explain why expressions can appear within statements but statements cannot appear within expressions in JavaScript?
+ 2. Can you explain why expressions can appear within statements but statements cannot appear within expressions in JavaScript? (refer 10_diff_exp_stat.js)
  
 
 
