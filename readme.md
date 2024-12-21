@@ -384,6 +384,14 @@ Readability Clear for complex conditions.
 Output Executes a block of statements.
  Side Effects	Can handle side effects.
  2. Can you explain why expressions can appear within statements but statements cannot appear within expressions in JavaScript? (refer 10_diff_exp_stat.js)
+
+## 11. Variable Address 
+
+ ##### Interview Question 
+ 1. How to find out the variable memory location in JS ?
+ 2. What happen in JS code execution ?  
+ 3. Which are the data types their memory address is fixed?
+ 
  
 
 
