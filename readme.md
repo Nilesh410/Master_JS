@@ -391,11 +391,39 @@ Output Executes a block of statements.
  1. How to find out the variable memory location in JS ?
  2. What happen in JS code execution ?  
  3. Which are the data types their memory address is fixed?
+
+## 12. Non Primitive Data Types 
+
+**In JAVA script there are seven primitive data types but <mark>non primitive is only one and that is nothing but the object.<mark>**
  
- 
+ Objects are further divided into three category 
+ 1. object literals
+ 2. arrays
+ 3. functions 
 
+ ##### 1. Objects Literals
+ Object consist of key values pair to hold multiple elements of different data types.
 
+ Example 
+ ``` 
+ const obj1={
+  emp_name:'Nilesh Shirude',
+    role:'Assistant Professor',
+    dept:'E&TC',
+    joining_date:'4th Sept 2014',
+    year_exp:10,
+    email_id:'nsshirude@pict.edu',
+    mob_no:8956210124,
+    skill:'JAVA, JS, OOP Programming, DSA'
+ }
+ console.log(obj1)
+ ```
 
+<mark>If two objects are hold similar elements still they are not equal because objects are compare with their address or references.<mark>
 
-
-
+We can access the object element by . notation or [] bracket notation. 
+We can also add the element into object 
+```
+  obj1.address='Mohan Nagar'
+  console.log(obj1) //object will be update by address
+ ```
