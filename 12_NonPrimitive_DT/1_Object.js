@@ -32,7 +32,8 @@ console.log(obj1===obj2)//false
 console.log(obj1.email_id) //.notation 
 console.log(obj1["mob-no"]) //bracket notation
 
-
+obj1.email_id='shirudenileshs@gmail.com'
+console.log(obj1)
 
 
 
