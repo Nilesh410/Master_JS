@@ -401,7 +401,7 @@ Output Executes a block of statements.
  2. arrays
  3. functions 
 
- ##### 1. Objects Literals
+ ##### 1. Objects Literals (Refer 12_NonPrimitive_DT Folder)
  Object consist of key values pair to hold multiple elements of different data types.
 
  Example 
@@ -428,7 +428,7 @@ We can also add the element into object
   console.log(obj1) //object will be update by address
  ```
 
-**Note:- When we declare object with const variable then we can add or delete the element inside the object variable without changes in its address**
+**Note:- <mark>When we declare object with const variable then we can add or delete the element inside the object variable without changes in its address**<mark>
 
 Example 
 ```
@@ -452,6 +452,15 @@ Here address of obj1 its does not change even we can add the new element edu.
 **Object freeze() and seal() function :-**  
  **a) Object.freeze(object name):-** Due to freeze we can not update the object element as well as we can not add or delete any object element 
 
- **b) Object.seal(object name):-** due to seal we can just modify the existing element value but we can not add or delete any element from the object using seal method
+ **b) Object.seal(object name):-** Due to seal we can just modify the existing element value but we can not add or delete any element from the object using seal method
+
+ ##### Interview Question 
+ 1. what is object in JS?
+ 2. How to create an object in JS? 
+ 3. How to update any element from the object?
+ 4. How to add and remove any element in the object?
+ 5. How to make object element mutable? 
+ 6. what is the use of freeze and seal function of object?
+ 7. How to check andy key is present in the object? (Refer 3_Object_ele_add_del.js)
 
 

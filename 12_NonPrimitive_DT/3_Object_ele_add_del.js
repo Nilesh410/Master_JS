@@ -26,3 +26,6 @@ obj1.city='Pune'
 obj1.email_id='shirudenileshs@gmail.com'
 console.log(obj1) 
 //due to seal we can just modify the existing element value but we can not add or delete any element from the object using seal method
+
+//How to check any key present in the object or not 
+console.log('edu' in obj1) //true 
