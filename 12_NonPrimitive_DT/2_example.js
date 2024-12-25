@@ -10,5 +10,5 @@ const obj1={
 
 }
 console.log(obj1)
-obj1.edu='MTech'
-console.log(obj1)
+//obj1.edu='MTech'
+//console.log(obj1)
