@@ -448,3 +448,10 @@ console.log(obj1)
 //console.log(obj1)
 ```
 Here address of obj1 its does not change even we can add the new element edu. 
+ 
+**Object freeze() and seal() function :-**  
+ **a) Object.freeze(object name):-** Due to freeze we can not update the object element as well as we can not add or delete any object element 
+
+ **b) Object.seal(object name):-** due to seal we can just modify the existing element value but we can not add or delete any element from the object using seal method
+
+
