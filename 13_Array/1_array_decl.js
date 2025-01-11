@@ -5,3 +5,16 @@
 //when you find out the typeof(arrayname)=> object 
 //typeof(object_literal)=>object 
 //typeof(function_name)=>function 
+
+const arr=["Apple","Orange","WaterMelon","Grapes"]
+console.log(arr)
+console.log(arr[2])
+arr.push("MuskMelon")
+console.log(arr);
+arr.push(322,122)
+console.log(arr)
+arr.pop()
+console.log(arr);
+console.log(arr.length)
+
+
