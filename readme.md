@@ -463,4 +463,14 @@ Here address of obj1 its does not change even we can add the new element edu.
  6. what is the use of freeze and seal function of object?
  7. How to check andy key is present in the object? (Refer 3_Object_ele_add_del.js)
 
+## 13. Array (Non Primitive Data Type)
+   #### **Definition**:-  
+   -> Array is In JS array is a data strcture to store the heterogenous data at index based  
+   -> Syntax :- variable decleration [array elements seperated by comma]  
+   -> Array is one of the non primitve data type and its type its nothing but the object   
+  -> Object have object literal, array, and function non primitive data type   
+  >**when you find out the** 
+  >>typeof(arrayname)=> object   
+  >>typeof(object_literal)=>object 
+  >>typeof(function_name)=>function 
 
