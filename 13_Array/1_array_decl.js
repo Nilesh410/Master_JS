@@ -16,5 +16,10 @@ console.log(arr)
 arr.pop()
 console.log(arr);
 console.log(arr.length)
+console.log([]===[])
+console.log("NSS")
+const arr1=[]
+const arr2=[]
+console.log(arr1==arr2);
 
 
