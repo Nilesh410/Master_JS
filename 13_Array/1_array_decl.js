@@ -16,7 +16,7 @@ console.log(arr)
 arr.pop()
 console.log(arr);
 console.log(arr.length)
-console.log([]===[])
+console.log([]===[])//false =both array store at differnt address
 console.log("NSS")
 const arr1=[]
 const arr2=[]
