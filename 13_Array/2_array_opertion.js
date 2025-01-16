@@ -44,5 +44,14 @@ console.log(arr)//original array has changed after sorting [ 11, 12, 12, 23, 34,
 const arr2=[18,11,13,16,15,26,22,21,8]
 console.log(arr2.sort());
 //they sort as per the series [11, 13, 15, 16, 18, 21, 22, 26,  8]
+//sort by UTF 16 code 
 
+//Slice():- abstract some content of array or subarrat end index value is excluded 
+console.log(arr.slice(2,4))//[ 12, 23 ]
+console.log(arr);//[ 11, 12, 12, 23, 34, 55 
+//In slice method original array is as it is there 
 
+console.log(arr)//[ 11, 12, 12, 23, 34, 55 ]
+console.log(arr.splice(2,1,89))//[ 12 ]
+console.log(arr)//[ 11, 12, 89, 23, 34, 55 ]
+//splice remove the ele
