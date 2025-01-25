@@ -5,6 +5,6 @@ function display() {
   }
 
   display()
- let a
+  let a
   console.log(a)
   
