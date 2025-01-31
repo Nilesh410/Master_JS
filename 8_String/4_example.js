@@ -6,3 +6,6 @@ let str2="26 Jan is India's Republic Day"
 let newstr=parseInt(str2.substring(0,2))
 console.log(newstr)
 console.log(typeof(newstr))
+console.log(str2)
+let new_str=str2.slice(2,5)
+console.log(new_str);
