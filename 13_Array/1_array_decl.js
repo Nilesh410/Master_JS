@@ -7,19 +7,19 @@
 //typeof(function_name)=>function 
 
 const arr=["Apple","Orange","WaterMelon","Grapes"]
-console.log(arr)
-console.log(arr[2])
+console.log(arr)//[ 'Apple', 'Orange', 'WaterMelon', 'Grapes' ]
+console.log(arr[2])//WaterMelon
 arr.push("MuskMelon")
-console.log(arr);
-arr.push(322,122)
+console.log(arr);//[ 'Apple', 'Orange', 'WaterMelon', 'Grapes', 'MuskMelon' ]
+arr.push(322,122)//[ 'Apple', 'Orange', 'WaterMelon', 'Grapes', 'MuskMelon', 322, 122 ]
 console.log(arr)
 arr.pop()
-console.log(arr);
-console.log(arr.length)
+console.log(arr);//[ 'Apple', 'Orange', 'WaterMelon', 'Grapes', 'MuskMelon', 322 ]
+console.log(arr.length)//6
 console.log([]===[])//false =both array store at differnt address
 console.log("NSS")
 const arr1=[]
 const arr2=[]
-console.log(arr1==arr2);
+console.log(arr1==arr2);//false
 
 

@@ -24,7 +24,7 @@ console.log(arr);//[ 11, 12, 34, 55, 23, 12 ]
 console.log("index of 12:-",arr.indexOf(12))//1 it shows the only index of occurence of first ele
 console.log("index of Watermelon:-",arr1.indexOf("Watermelon"));
 console.log("index of watermelon:-",arr1.indexOf("watermelon"));
-console.log("index of waterMelon:-",arr1.indexOf("waterMelon"));
+console.log("index of waterMelon:-",arr1.indexOf("waterMelon"));//it return -1 if the value does not present
 
 //7) includes()
 console.log("12 present in the array or not",arr.includes(12))//true show ele is present in the array
@@ -46,7 +46,7 @@ console.log(arr2.sort());
 //they sort as per the series [11, 13, 15, 16, 18, 21, 22, 26,  8]
 //sort by UTF 16 code 
 
-//Slice():- abstract some content of array or subarrat end index value is excluded 
+//Slice():- abstract some content of array or subarray end index value is excluded 
 console.log(arr.slice(2,4))//[ 12, 23 ]
 console.log(arr);//[ 11, 12, 12, 23, 34, 55 
 //In slice method original array is as it is there 
@@ -54,4 +54,4 @@ console.log(arr);//[ 11, 12, 12, 23, 34, 55
 console.log(arr)//[ 11, 12, 12, 23, 34, 55 ]
 console.log(arr.splice(2,1,89))//[ 12 ]
 console.log(arr)//[ 11, 12, 89, 23, 34, 55 ]
-//splice remove the ele
+//splice remove the element from the given array or update the array elements 
