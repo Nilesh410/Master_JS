@@ -20,3 +20,16 @@ Object.assign(obj2,obj1)
 //Suppose we updated in obj2 then obj1 will not be reflected
 obj2.lastname="Patil"
 
+//But Object.assign(obj,obj) is old technique
+//Now day we follow the another process -> By using spread operator 
+//Syntax :- let object name={...existing object}
+
+let obj3={...obj}
+obj3.first_Name="Kiran"
+console.log(obj)
+console.log(obj3)
+//It is same for array also 
+
+let newfruits=[...fruits]
+console.log(fruits)
+console.log(newfruits);
