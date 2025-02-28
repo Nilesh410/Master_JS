@@ -4,7 +4,7 @@
 
 //defineProerty function -> its make a specific property of object as immutable or prevent to change or delete 
 
-
+//preventExtensions(obj) ->  to prevent adding new properties. 
 
 let student={
     "student name":'Nilesh Shirude',
@@ -32,3 +32,4 @@ Object.defineProperty(student,"age",
 student.age=35
 delete student.age
 console.log(student)
+
