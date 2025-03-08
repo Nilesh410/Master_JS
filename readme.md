@@ -489,6 +489,73 @@ Here address of obj1 its does not change even we can add the new element edu.
   arr.pop()
   console.log(arr) //[ 23, 12, 34, 55, 23 ]
   ```
+  3) shift():- Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+  ```
+    arr.shift()
+    console.log(arr)//[ 12, 34, 55, 23 ]
+  ```
+  4) unshift():- nserts new elements at the start of an array, and returns the new length of the array.
+  ```
+  arr.unshift(11)
+  console.log(arr); //[ 11, 12, 34, 55, 23 ]
+  ``` 
+
+  5) concat():- Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+  ```
+  const arr1=["Grapes","Watermelon","Maskmelon","watermelon"]
+  console.log(arr.concat(arr1)); //[ 11, 12, 34, 55, 23, 'Grapes', 'Watermelon', 'Makmelon' ]
+  console.log(arr)//[ 11, 12, 34, 55, 23 ] 
+  ```
+
+  6) indexOf():-Returns the index of the first occurrence of a value in an array, or -1 if it is not present.
+  ```
+  console.log(arr);//[ 11, 12, 34, 55, 23, 12 ]
+  console.log("index of 12:-",arr.indexOf(12))//1 it shows the only index of occurence of first ele
+  console.log("index of Watermelon:-",arr1.indexOf("Watermelon"));
+  console.log("index of watermelon:-",arr1.indexOf("watermelon"));
+  console.log("index of waterMelon:-",arr1.indexOf("waterMelon"));//it return -1 if the value does not present
+  ```
+
+  7) includes() :- Determines whether an array includes a certain element, returning true or false as appropriate.
+  ```
+    console.log("12 present in the array or not",arr.includes(12))//true show ele is present in the array
+    console.log("waterMelon is present or not:-",arr1.includes("waterMelon"))
+  ```
+
+  8) reverse():-Reverses the elements in an array in place. This method mutates the array and returns a reference
+  ```
+  console.log(arr.reverse())
+  console.log(arr);//original arry has changed after reverse operation on given array
+  console.log(arr1.reverse())
+  ```
+
+  9) sort():- Sorts an array in place. This method mutates the array and returns a reference to the same array
+  ```
+  console.log(arr1.sort());//[ 'Grapes', 'Maskmelon', 'Watermelon', 'watermelon' ]
+  console.log(arr1);//[ 'Grapes', 'Maskmelon', 'Watermelon', 'watermelon' ]
+  console.log(arr.sort())//[ 11, 12, 12, 23, 34, 55 ]
+  console.log(arr)//original array has changed after sorting [ 11, 12, 12, 23, 34, 55 ]
+
+  const arr2=[18,11,13,16,15,26,22,21,8]
+  console.log(arr2.sort());
+  //they sort as per the series [11, 13, 15, 16, 18, 21, 22, 26,  8]
+  //sort by UTF 16 code 
+  ```
+
+  10) Slice():- abstract some content of array or subarray end index value is excluded 
+  ```
+    console.log(arr.slice(2,4))//[ 12, 23 ]
+    console.log(arr);//[ 11, 12, 12, 23, 34, 55 
+    //In slice method original array is as it is there
+  ```
+
+  11) splice():-Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+  ```
+    console.log(arr)//[ 11, 12, 12, 23, 34, 55 ]
+    console.log(arr.splice(2,1,89))//[ 12 ]
+    console.log(arr)//[ 11, 12, 89, 23, 34, 55 ]
+  ```
+
 
      
 
