@@ -1,6 +1,6 @@
 # Master in JAVA Script 
 ## 1. Introduction to JS 
-JAVA script has invented by Brendan Eich in 1995 after it was standered by ECMA in 1997
+JAVA script has invented by Brendan Eich in 1995 after it was standared by ECMA in 1997
 
 **ECMA** :- European Computer Manufactures Association  
 **ES8** :- Current version of ES  
@@ -19,7 +19,7 @@ Alternate name is REPL
 
 **Display**:-   
 console.log("Message/value to display")    
-<mark>In browser why the undeined is coming after console.log rendering.</mark>  
+<mark>In browser why the undefined is coming after console.log rendering.</mark>  
 
 **Shortcut Key**:- 
 
@@ -99,14 +99,14 @@ which are the data types are false and truthy value in JS
  7) when NaN is used?
  8) 
 
-## 3. Variable Decleration 
+## <mark>3. Variable Decleration</mark> 
 #### There are three ways to declare the variable in JS  
-  1. **var** (Refer 3_Variable_Decl)    
+  1. <mark>**var** (Refer 3_Variable_Decl)</mark>    
     -> var is global scope and functional scope  
     -> we can access var variable before decleration and initalization due to hoisting  
     -> we can reinitialize var variable in same scope  
     -> we can redeclare the var variable with same name in same scope     
-  2. **let**   
+  <mark>2. **let**</mark>   
     -> let has block scope   
     -> block scope varible can not access before decleration due  to TDZ  
     -> it can reinitialize in the same scope   
@@ -130,8 +130,8 @@ Questions Related with the scoping:-
 11) what is execution context?
 12) what is global execution context?
 
-## 4. Function 
-#### 1. what is the function?
+## <mark>4. Function </mark> 
+#### <mark>1. what is the function?</mark>
   -> Function :- performing the perticular task or operation and we can call multiple time without 
     writing reapeadly
 
@@ -153,7 +153,7 @@ Questions Related with the scoping:-
       }
       calling:- variablename()
 
-    3. Anonymous Function:- those function has dont have any name 
+    3. Anonymous Function:- those function has does not have any name 
         Syntax:
         let variabel name=function()
         {
@@ -261,7 +261,8 @@ Questions Related with the scoping:-
   6. what is the use of debugger keyword in code? 
   7. what is the use of defer attribute ? 
 
-## 7. Dialog Box in JAVA Script (Refer 7_Dialog_Box)
+## 7. Dialog Box in JAVA Script    
+(Refer 7_Dialog_Box)
 ##### There are three type of dialog box in JS  
   1. alert(message) 
   2. confirm(message)
@@ -307,9 +308,9 @@ Questions Related with the scoping:-
  3. what are the properties and function related to the string ?
  4. what is the difference between split and splice function ?
 
-## 9. Operators 
+## <mark>9. Operators</mark> 
    Operators means perform the operation on two operands 
-##### **1. Different type of operators** 
+### **1. Different type of operators** 
 **A. Arithmetic Operator (+ - * / % ** )**   
 
 **Math**:- By using Math object we can solve any type of mathematical operation 
@@ -461,16 +462,29 @@ Here address of obj1 its does not change even we can add the new element edu.
  4. How to add and remove any element in the object?
  5. How to make object element mutable? 
  6. what is the use of freeze and seal function of object?
- 7. How to check andy key is present in the object? (Refer 3_Object_ele_add_del.js)
+ 7. How to check any key is present in the object? (Refer 3_Object_ele_add_del.js)
 
 ## 13. Array (Non Primitive Data Type)
-   #### **Definition**:-  
-   -> Array is In JS array is a data strcture to store the heterogenous data at index based  
-   -> Syntax :- variable decleration [array elements seperated by comma]  
-   -> Array is one of the non primitve data type and its type its nothing but the object   
-  -> Object have object literal, array, and function non primitive data type   
-  >**when you find out the** 
-  >>typeof(arrayname)=> object   
-  >>typeof(object_literal)=>object 
-  >>typeof(function_name)=>function 
+   #### **A. Definition**:-  
+    -> Array is In JS array is a data strcture to store the heterogenous data at index based  
+    -> Syntax :- variable decleration [array elements seperated by comma]  
+    -> Array is one of the non primitve data type and its type its nothing but the object   
+    -> Object have object literal, array, and function non primitive data type  
+
+    >**when you find out the** 
+    >>typeof(arrayname)=> object   
+    >>typeof(object_literal)=>object 
+    >>typeof(function_name)=>function 
+
+  #### **B. Array Predefined Function**
+    1) push():- Appends new elements to the end of an array, and returns the new length of the array.
+
+    ```
+     const arr=[23,12,34,55,23]
+     console.log(arr)//[ 23, 12, 34, 55, 23 ]
+     arr.push(67)
+     console.log(arr)//[ 23, 12, 34, 55, 23, 67 ]
+    ```
+    2) 
+
 
