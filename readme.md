@@ -302,6 +302,34 @@ Questions Related with the scoping:-
     **10. slice(start,end)**=> Returns a section of a string.  
         start — The index to the beginning of the specified portion of stringObj.  
         end -The index to the end of the specified portion of stringObj. The substring includes the characters up to, but not including, the character indicated by end. If this value is not specified, the substring continues to the end of stringObj.
+  
+  ```
+  let str="JavaScript"
+
+  console.log(str.slice(4, 10)); // "Script"
+  console.log(str.slice(4, -1)); // "Scrip"
+  console.log(str.slice(-6, -1)); // "Scrip"
+  console.log(str.slice(7, 4)); // "" (Invalid range)
+
+  console.log(str)//JavaScript
+
+  console.log(str.substring(4, 10)); // "Script"
+  console.log(str.substring(4, -1)); // "Java" (Negative treated as 0)and swap the indices
+  console.log(str.substring(7, 4)); // "Scr" (Swaps indices)
+  console.log(str.substring(7, 7)); // "" (Empty range)
+
+  /* 
+  slice()
+  -> Supported; counts from the end of the string.
+  ->Does not swap indices; invalid range returns an empty string.
+  ->Does not modify the original string.
+
+  substring()=>
+  -> Not supported; negative values treated as 0.
+  -> Automatically swaps indices if startIndex > endIndex.
+  -> Does not modify the original string.
+  */
+  ```
 ##### **Interview Questions**
  1. what is string in JS? 
  2. How to create or declare the sting in JS?
@@ -455,6 +483,89 @@ Here address of obj1 its does not change even we can add the new element edu.
 
  **b) Object.seal(object name):-** Due to seal we can just modify the existing element value but we can not add or delete any element from the object using seal method
 
+**How t make a dupliate object**
+```
+  let obj={
+    first_Name:"Nilesh",
+    lastname:"Shirude",
+  }
+let obj1=obj
+console.log(obj)
+console.log(obj1)
+  let fruits=["Watermelon","muskmelon"]
+  let myfruits=fruits
+  fruits.push("apple")
+  console.log(fruits)
+  console.log(myfruits)
+  //Here both object are pointed to same address
+```
+
+```
+  // But we have to make duplicate copy with different address 
+  //so its create by Object.assign() method
+  let obj2={}
+  Object.assign(obj2,obj1)
+  //Suppose we updated in obj2 then obj1 will not be reflected
+  obj2.lastname="Patil"
+```
+
+```
+  //But Object.assign(obj,obj) is old technique
+  //Now day we follow the another process -> By using spread operator 
+  //Syntax :- let object name={...existing object}
+    let obj3={...obj}
+    obj3.first_Name="Kiran"
+    console.log(obj)
+    console.log(obj3)
+  //It is same for array also 
+```
+
+```
+  //Example of shallow copy object within object has same address even after the shallow copy using spread operator
+    let obj1={
+    firstname:"Nilesh",
+    lastname:"Shirude",
+    address:{
+        city:"Pune",
+        pincode:411045
+      }
+    }
+  let obj2={...obj1}
+  console.log(obj1)
+  console.log(obj2)
+  obj2.firstname="Suraj"
+  obj2.address.city="Nashik"
+```
+***Deep Copy Example***
+1) Deep copy acheieved through JSON function 
+  ```
+  const new_object= JSON.parse(JSON.stringfy(object))
+  ```
+2) By using strcturedClone() method      
+ ```
+   const user2=structuredClone(user1)  
+ ```
+
+ ```
+   //Example
+   const user1={
+    name:"coder",
+    hobbies:["Programming","Badminton","Songs"]
+    }
+    const user2=structuredClone(user1)
+    //const user2=JSON.parse(JSON.stringify(user1))
+    user2.hobbies.push("cricket")
+
+
+    console.log(user1)//{ name: 'coder', hobbies: [ 'Programming', 'Badminton', 'Songs' ] }
+    console.log(user2)
+    /* Output :- 
+      {
+        name: 'coder',
+        hobbies: [ 'Programming', 'Badminton', 'Songs', 'cricket' ]
+      } */
+```
+
  ##### Interview Question 
  1. what is object in JS?
  2. How to create an object in JS? 
@@ -463,6 +574,12 @@ Here address of obj1 its does not change even we can add the new element edu.
  5. How to make object element mutable? 
  6. what is the use of freeze and seal function of object?
  7. How to check any key is present in the object? (Refer 3_Object_ele_add_del.js)
+ 8. How to make duplicate or reference object?
+ 9. What happened when we copy the array or object using spread operator?
+ 10. What is the use of Object.assign() function?
+ 11. what is the difference between shallow copy and deep copy of object?
+ 12. what are the different way to take deep copy of the object?
+ 
 
 ## 13. Array (Non Primitive Data Type)
    #### **A. Definition**:-  
@@ -555,6 +672,53 @@ Here address of obj1 its does not change even we can add the new element edu.
     console.log(arr.splice(2,1,89))//[ 12 ]
     console.log(arr)//[ 11, 12, 89, 23, 34, 55 ]
   ```
+
+  ```
+    //JS Code to find out of index of multiple occurence of same element 
+    //JS there is no such method directly to find out indices of multiple occuence of same element by we can find out by some logic and foreach function 
+    const arr=[10,12,34,12,56]
+    let target_value=12
+    let occ=[]
+
+    arr.forEach((ele,index)=>{
+        if(ele===target_value)
+            occ.push(index)
+    })
+    console.log(occ)
+  ``` 
+
+  ```
+    let arr=[12,23,45,33,67,54,89,92]
+    console.log(arr)
+    /* [
+        12, 23, 45, 33,
+        67, 54, 89, 92
+      ] */
+    console.log(arr.slice(2,5))//[ 45, 33, 67 ]
+    console.log(arr.slice(-2,-3))//[]invalid range, it work on -ve paramteres also,
+    console.log(arr.slice(2,-3))//[ 45, 33, 67 ]
+    console.log(arr.slice(-4,-2))//[ 67, 54 ]
+    console.log(arr.slice(2,0))//[]invalid range, parameters values does not swap 
+    //slice method works from left to right
+    //And original array is still present as it is 
+    console.log(arr);
+
+    console.log(arr.splice(2,1))//[45]
+    console.log(arr); //45 has remove from the array
+    /* [
+        12, 23, 33, 67,
+        54, 89, 92
+      ] */
+    console.log(arr.splice(-4,-2))
+    console.log(arr)
+    console.log(arr.splice(-4,2))//[ 67, 54 ]
+    console.log(arr);//[ 12, 23, 33, 89, 92 ]
+    console.log(arr.splice(2,0))//[]
+
+    console.log(arr)
+```
+    
+  
 
 
      

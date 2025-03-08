@@ -27,4 +27,3 @@ console.log(arr);//[ 12, 23, 33, 89, 92 ]
 console.log(arr.splice(2,0))//[]
 
 console.log(arr)
-console.log(arr.s)
