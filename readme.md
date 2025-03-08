@@ -477,13 +477,19 @@ Here address of obj1 its does not change even we can add the new element edu.
     >>typeof(function_name)=>function 
 
   #### **B. Array Predefined Function**
-    1)push():- Appends new elements to the end of an array, and returns the new length of the array.
+  1) push():- Appends new elements to the end of an array, and returns the new length of the array.
   ```
      const arr=[23,12,34,55,23]
      console.log(arr)//[ 23, 12, 34, 55, 23 ]
      arr.push(67)
      console.log(arr)//[ 23, 12, 34, 55, 23, 67 ]
   ```
+  2) pop() :- Removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
+  ```
+  arr.pop()
+  console.log(arr) //[ 23, 12, 34, 55, 23 ]
+  ```
+
      
 
 
