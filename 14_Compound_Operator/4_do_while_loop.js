@@ -1,4 +1,4 @@
-let i=0
+var i=0
 do
 {
     console.log(i+2)

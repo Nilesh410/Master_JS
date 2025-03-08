@@ -6,7 +6,7 @@ if(num===1||num===0)
     console.log("0 and 1 is not a prime no");
 }
 else{
-    for(i=2;i<num/2;i++)
+    for(let i=2;i<num/2;i++)
     {
         if(num%i===0)
         {

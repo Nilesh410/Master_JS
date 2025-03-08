@@ -9,6 +9,6 @@ for(var i=0;i<a;i++)
 {
     console.log(i*2)
 }
-console.log(i)
-console.log(i++)
-console.log(i)
+console.log(i)//5
+console.log(i++)//5
+console.log(i)//6
