@@ -388,6 +388,9 @@ As well as its provide the some Math properties
  2. what is logical operator and there used?
  3. Example of logical operators?
 
+Conversion of Different Value in Different Data Type
+![Conversion of Different Values in Different Type](conversion.JPG)
+
 ## 10. Statements 
 ##### **A. Condition Statement (Refer 10_Condition_Stat)** 
   1. If Statement
