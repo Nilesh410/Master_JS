@@ -391,6 +391,26 @@ As well as its provide the some Math properties
 Conversion of Different Value in Different Data Type
 ![Conversion of Different Values in Different Type](conversion.JPG)
 
+**Difference between Data Coversion and Data Conversion  
+-> Type Coercion (Implicit Conversion)  
+Done automatically by JavaScript when an operation involves different types.
+JavaScript converts types implicitly depending on the operation.  
+Example:-
+```
+console.log("5" - 2); // 3 (String "5" is coerced to a number)
+console.log("5" + 2); // "52" (Number 2 is coerced to a string)
+console.log(true + 1); // 2 (true is coerced to 1)
+```
+
+Type Conversion (Explicit Conversion)
+Done manually using functions like Number(), String(), or Boolean().
+You have control over how the value is converted.
+Example:-
+```
+ let str = "123";
+  let num = Number(str); // Explicit conversion from string to number
+  console.log(num, typeof num); // Output: 123 'number'
+```
 ## 10. Statements 
 ##### **A. Condition Statement (Refer 10_Condition_Stat)** 
   1. If Statement
