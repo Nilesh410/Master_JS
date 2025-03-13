@@ -240,7 +240,7 @@ Questions Related with the scoping:-
   20. what is the value of this in arrow function with different senerio? (Refer 3_example.js)
   21. Solve some coding questions on this (Refer 4_Q_A.js)
 
-## 5&6. Execution Context 
+## 5&6. Execution Context and Scope 
 #### Execute JS Code Internally 
   -> JS Code execute internally in two phases called as memory creation phase and code execution phase.   
   -> In memory creation phase JS engine just allocates the memory for the variable and function but do not assign any value to the variable   
@@ -261,7 +261,19 @@ Questions Related with the scoping:-
     If recursively we called function contineously, so after some time call stack goes to overflow, that concept we called as stack overflow
 
 ### Doest hoisting is apply to function decleration as well as function expression.
--> For function expression, hositing does not applicable, it shows the error 
+-> For function expression, hositing does not applicable, it shows an error 
+
+## Scope 
+ 1. Global Scope:-   
+  -> when we start the execution then its goes to globl scope   
+  ->global scope divided into two category:- window object(global) + script scope  
+  ->window object :- it has variable with decleration of var   
+  ->script scope:- variables with decelation of let and const   
+  -> global variables access any where in the program bcoz its scope is global
+
+ 2. Local Scope:-
+   -> local scope access within the block of code
+   -> variable declerare in the perticular block of code 
 
 #### Interview Question 
   1. what is the execution context ? 
