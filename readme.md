@@ -275,6 +275,9 @@ Questions Related with the scoping:-
    -> local scope access within the block of code
    -> variable declerare in the perticular block of code 
 
+### <mark>Example to understand the scope concept</mark>
+ ![Eample of Scope](/6_Execution_Context/Scope%20Image.png)
+
 #### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 

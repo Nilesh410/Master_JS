@@ -12,10 +12,8 @@
 debugger
 const userName="Nilesh"
 const userAge=35
-
 var a=5
 var b=10
-
 function add()
 {
     const a1=3
@@ -23,5 +21,12 @@ function add()
     console.log("a+b=",a+b)
     console.log("a1+b1:",a1+b1)
 }
-
+function substract()
+{
+    const a2=13
+    const b2=5
+    console.log("a-b=",a-b)
+    console.log("a2-b2=",a2-b2)  
+}
 add()
+substract()
