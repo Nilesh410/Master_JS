@@ -260,7 +260,9 @@ Questions Related with the scoping:-
 
     If recursively we called function contineously, so after some time call stack goes to overflow, that concept we called as stack overflow
 
-### 
+### Doest hoisting is apply to function decleration as well as function expression.
+-> For function expression, hositing does not applicable, it shows the error 
+
 #### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 
