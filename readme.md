@@ -247,11 +247,20 @@ Questions Related with the scoping:-
   -> In code execution phase JS engine assign the value to the variable and executue the function   
   -> That process we called as excution context   
   -> Same procedure will be followed for the every function which is mentioned in the source code   
-#### Debugger 
+#### **Debugger** 
   -> By using debugger we can debug the code line by line and observed the output of each line  
   -> Defer :- The defer attribute in HTML is used with script elements to control the execution timing of an external JavaScript file. It ensures the script is executed after the HTML document has been fully parsed.
   -> The defer attribute is a great way to optimize the loading and execution of external JavaScript files, ensuring smoother page rendering and better user experience. It’s especially useful for scripts that manipulate or interact with the DOM.
 
+### What is Execution Context:- 
+  It is environment in which JS code is executed, inculding varaible scope and function decleration 
+
+### What is call stack :- 
+    It is mechanism for managing the order of function calls and their execution contnets 
+
+    If recursively we called function contineously, so after some time call stack goes to overflow, that concept we called as stack overflow
+
+### 
 #### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 
@@ -260,6 +269,8 @@ Questions Related with the scoping:-
   5. what is break point ? 
   6. what is the use of debugger keyword in code? 
   7. what is the use of defer attribute ? 
+  8. what is call stack?
+  9. what is stackoverflow?
 
 ## 7. Dialog Box in JAVA Script    
 (Refer 7_Dialog_Box)
