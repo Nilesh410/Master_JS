@@ -278,6 +278,39 @@ Questions Related with the scoping:-
 ### <mark>Example to understand the scope concept</mark>
  ![Eample of Scope](/6_Execution_Context/Scope%20Image.png)
 
+### Lexical Scoping:- 
+When a function is created inside another function, the inner function can access variables from the outer function's scope (and even further out to the global scope).
+```
+    function outerFunction() {
+      const outerVariable = "Hello";
+
+      function innerFunction() {
+        console.log(outerVariable); // Accessing outerVariable from innerFunction
+      }
+
+      innerFunction();
+    }
+
+    outerFunction();
+```
+### Clousre:- 
+In JavaScript, a closure is formed when a function is defined inside another function, allowing the inner function to access variables and parameters from the outer function's scope, even after the outer function has finished executing. 
+
+```
+ function outerFunction() {
+  let outerVariable = "I am from the outer function";
+
+  function innerFunction() {
+    console.log(outerVariable); // Inner function accessing the outerVariable
+  }
+
+  return innerFunction;
+}
+
+let closureExample = outerFunction(); // Outer function called and returned, and the result assigned to closureExample
+closureExample(); // Inner function invoked, which still has access to outerVariable even though outerFunction has finished executing.
+```
+
 #### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 
@@ -288,6 +321,9 @@ Questions Related with the scoping:-
   7. what is the use of defer attribute ? 
   8. what is call stack?
   9. what is stackoverflow?
+  10. what is closure in JS?
+  11. what is lexical scoping?
+  
 
 ## 7. Dialog Box in JAVA Script    
 (Refer 7_Dialog_Box)
