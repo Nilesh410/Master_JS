@@ -311,6 +311,36 @@ let closureExample = outerFunction(); // Outer function called and returned, and
 closureExample(); // Inner function invoked, which still has access to outerVariable even though outerFunction has finished executing.
 ```
 
+### Higher Order and Call back function 
+  -> A function that returns a function or 
+     takes other functions as arguments is called a higher-order function. 
+     every, map, filter, setTimeout these are the higher order function   
+   -> Function that pass to function as a argument then it is  called as call back function 
+   ```
+   
+//Higher Order Function 
+function higherOrder(parameter)
+{
+    console.log(typeof parameter)
+    console.dir(parameter);
+    parameter()
+}
+
+//Call back function 
+// function test()
+// {
+//     console.log("I am call back function")
+// }
+// higherOrder(test)
+
+higherOrder(
+    function()
+    {
+        console.log("I am call back function")
+    }
+)
+   ```
+
 #### Interview Question 
   1. what is the execution context ? 
   2. what is hoisting? 
