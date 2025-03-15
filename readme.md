@@ -353,6 +353,8 @@ higherOrder(
   9. what is stackoverflow?
   10. what is closure in JS?
   11. what is lexical scoping?
+  12. What is higher order function?
+  13. What is call back function?
   
 
 ## 7. Dialog Box in JAVA Script    
