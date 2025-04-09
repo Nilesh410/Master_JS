@@ -236,16 +236,16 @@ Questions Related with the scoping:-
   16. what is call stack ?
   17. what is this keyword? what is the value hold by this keyword? (Refer 5_this_keyword->1_example.js)
   18. which are the different type of scope in JS explain with example.
-  19. what is lexical scope in the program? Expain with example(5_this_keyword->2_example.js)
-  20. what is the value of this in arrow function with different senerio? (Refer 3_example.js)
+  19. what is lexical scope in the program? Explain with example(5_this_keyword->2_example.js)
+  20. what is the value of this in arrow function with different senario? (Refer 3_example.js)
   21. Solve some coding questions on this (Refer 4_Q_A.js)
 
 ## 5&6. Execution Context and Scope 
 #### Execute JS Code Internally 
   -> JS Code execute internally in two phases called as memory creation phase and code execution phase.   
   -> In memory creation phase JS engine just allocates the memory for the variable and function but do not assign any value to the variable   
-  -> In code execution phase JS engine assign the value to the variable and executue the function   
-  -> That process we called as excution context   
+  -> In code execution phase JS engine assign the value to the variable and execute the function   
+  -> That process we called as execution context   
   -> Same procedure will be followed for the every function which is mentioned in the source code   
 #### **Debugger** 
   -> By using debugger we can debug the code line by line and observed the output of each line  
@@ -253,30 +253,30 @@ Questions Related with the scoping:-
   -> The defer attribute is a great way to optimize the loading and execution of external JavaScript files, ensuring smoother page rendering and better user experience. It’s especially useful for scripts that manipulate or interact with the DOM.
 
 ### What is Execution Context:- 
-  It is environment in which JS code is executed, inculding varaible scope and function decleration 
+  It is environment in which JS code is executed, including variable scope and function declaration 
 
 ### What is call stack :- 
-    It is mechanism for managing the order of function calls and their execution contnets 
+    It is mechanism for managing the order of function calls and their execution contexts 
 
-    If recursively we called function contineously, so after some time call stack goes to overflow, that concept we called as stack overflow
+    If recursively we called function continuously, so after some time call stack goes to overflow, that concept we called as stack overflow
 
-### Doest hoisting is apply to function decleration as well as function expression.
--> For function expression, hositing does not applicable, it shows an error 
+### Doest hoisting is apply to function declaration as well as function expression.
+-> For function expression, hoisting does not applicable, it shows an error 
 
 ## Scope 
  1. Global Scope:-   
   -> when we start the execution then its goes to globl scope   
   ->global scope divided into two category:- window object(global) + script scope  
-  ->window object :- it has variable with decleration of var   
-  ->script scope:- variables with decelation of let and const   
+  ->window object :- it has variable with declaration of var   
+  ->script scope:- variables with declaration of let and const   
   -> global variables access any where in the program bcoz its scope is global
 
  2. Local Scope:-
    -> local scope access within the block of code
-   -> variable declerare in the perticular block of code 
+   -> variable declare in the particular block of code 
 
 ### <mark>Example to understand the scope concept</mark>
- ![Eample of Scope](/6_Execution_Context/Scope%20Image.png)
+ ![Example of Scope](/6_Execution_Context/Scope%20Image.png)
 
 ### Lexical Scoping:- 
 When a function is created inside another function, the inner function can access variables from the outer function's scope (and even further out to the global scope).
@@ -293,7 +293,7 @@ When a function is created inside another function, the inner function can acces
 
     outerFunction();
 ```
-### Clousre:- 
+### Closure:-  
 In JavaScript, a closure is formed when a function is defined inside another function, allowing the inner function to access variables and parameters from the outer function's scope, even after the outer function has finished executing. 
 
 ```
@@ -355,6 +355,14 @@ higherOrder(
   11. what is lexical scoping?
   12. What is higher order function?
   13. What is call back function?
+  14. what is synchronous programming, explain with example?
+  15. what is asynchronous programming?
+  16. How to achieve asynchronous programming in JS? 
+  17. what is setTimeout and setInterval function in JS?
+  18. what is clearTimeout and clearInterval function in JS? 
+  19. what is event loop?
+  20. what is callback queue in JS? 
+  21. 
   
 
 ## 7. Dialog Box in JAVA Script    
