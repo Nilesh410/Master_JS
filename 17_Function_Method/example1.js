@@ -1,6 +1,7 @@
 function method()
 {
-    console.log("Message from function")
+    //console.log("Message from function")
+    return "Message from function"
 }
 
 const obj={
@@ -9,8 +10,11 @@ const obj={
     {
         console.log("Message from method");
     },
-    method1:()=>{console.log("message from arrow function")}
+    //method1:()=>{console.log("message from arrow function")}
+
+    method1:()=>{return "message from arrow function"}
 }
-method()
+const msg=method()
+console.log(msg)
 obj.method()
-obj.method1()
+console.log(obj.method1())
