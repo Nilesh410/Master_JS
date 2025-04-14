@@ -855,6 +855,20 @@ console.log(obj1)
 
  4. Methods are invoked using dot notation, while functions are invoked using parentheses.
 
+## Arrow Function:-
+ #### **Definition:-** 
+ Arrow function is one of the ananymous function expression type 
+
+ ```
+ //Syntax
+ (parameter to pass)=>{
+   // function statement
+ } 
+ ```
+#### **Advantage of Arrow Function**
+1. They automatically bind to the this value of the enclosing scope.
+2. Arrow functions automatically inherit the this value of the enclosing lexical scope
+
 
      
 
