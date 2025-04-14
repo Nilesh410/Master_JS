@@ -869,6 +869,13 @@ console.log(obj1)
 1. They automatically bind to the this value of the enclosing scope.
 2. Arrow functions automatically inherit the this value of the enclosing lexical scope
 
+## Use of for of and for in (refer 19_for_of_for_in)
+#### **for of:-**
+The for...of statement executes a loop that operates on a sequence of values sourced from an iterable object. Iterable objects include instances of built-ins such as Array, String, TypedArray, Map, Set, NodeList
+
+#### **for...in:-**
+The for...in statement iterates over all enumerable string properties of an object (ignoring properties keyed by symbols), including inherited enumerable properties.
+
 
      
 
