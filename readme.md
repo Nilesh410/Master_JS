@@ -856,7 +856,7 @@ console.log(obj1)
  4. Methods are invoked using dot notation, while functions are invoked using parentheses.
 
 ## Arrow Function:-
- #### **Definition:-** 
+ #### **Definition:-** (Refer 18_Arrow_Function/example1.js)
  Arrow function is one of the ananymous function expression type 
 
  ```
