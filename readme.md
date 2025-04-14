@@ -876,7 +876,23 @@ The for...of statement executes a loop that operates on a sequence of values sou
 #### **for...in:-**
 The for...in statement iterates over all enumerable string properties of an object (ignoring properties keyed by symbols), including inherited enumerable properties.
 
+## **ForEach() method**
 
+The forEach() method of Array instances executes a provided function once for each array element. 
+
+Unlike map(), forEach() always returns undefined and is not chainable.
+
+callbackFn
+A function to execute for each element in the array. Its return value is discarded. The function is called with the following arguments:
+
+element
+The current element being processed in the array.
+
+index
+The index of the current element being processed in the array.
+
+array
+The array forEach() was called upon.
      
 
 
