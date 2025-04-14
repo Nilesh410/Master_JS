@@ -10,3 +10,11 @@ for(const key in object)
 {
     console.log(key,":",object[key]);
 }
+
+let key_name=Object.keys(object)
+for(const value of key_name)
+{
+    console.log(`${value} :${object[value]}`)
+}
+console.log(Object.values(object))
+console.log(Object.entries(object))
