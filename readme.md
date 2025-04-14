@@ -844,8 +844,16 @@ console.log(obj1)
 
     console.log(arr)
 ```
-    
-  
+## 17.Difference Between Function and Method 
+ #### **Function and Method:-**(Refer 17_Fucntion_Method/example1.js)
+ 1. Functions are standalone blocks of code, while methods are functions defined inside objects.  
+
+ 2. Methods are functions defined inside objects, while functions are standalone blocks of code.
+
+ 3. What is the role of the return statement in both functions and methods in JavaScript?  
+ -> It is used to return a value from the function or method back to the caller.
+
+ 4. Methods are invoked using dot notation, while functions are invoked using parentheses.
 
 
      
