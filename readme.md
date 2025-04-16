@@ -893,6 +893,54 @@ The index of the current element being processed in the array.
 
 array
 The array forEach() was called upon.
+
+## Map, Filter and Reduce Method
+
+#### **1. map() method:-** 
+The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+Map method is capable to go to every element of the array and apply the call back function on each element and return the new resultant array 
+
+map method does not change the existing original array
+```
+<!-- syntax :- array_name.map(()=>{
+  //call back function logic
+})
+Example  -->
+let months=["Jan",'Feb','Mar','June','Aug',"Oct",'Nov','Dec']
+
+const month_data=months.map((month1,index,array)=>{
+   // console.log(index,month1)
+   //console.log(array)
+   return (month1)
+})
+console.log(month_data)
+```
+
+#### **2. filter() method:-**
+filter method is go to every element of array and apply the callback function with condition on each element of the array. And filter out the element only those who satisfied the condition 
+
+Syntax:- 
+array_name.filter((ele)=>{
+  return condition 
+})
+Example:- 
+```
+let months=["Jan",'Feb','Mar','June','Aug',"Oct",'Nov','Dec']
+
+const filter_data=months.filter((month)=>{
+    //return month.length>3
+
+    return month.toLowerCase().includes('a')
+})
+console.log(filter_data);
+```
+Output:- 
+```
+PS D:\Master_JS\21_map_filter_reduce> node map1.js
+[ 'Jan', 'Mar', 'Aug' ]
+```
+
      
 
 
