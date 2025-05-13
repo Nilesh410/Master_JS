@@ -855,7 +855,7 @@ console.log(obj1)
 
  4. Methods are invoked using dot notation, while functions are invoked using parentheses.
 
-## Arrow Function:-
+## 18.Arrow Function:-
  #### **Definition:-** (Refer 18_Arrow_Function/example1.js)
  Arrow function is one of the ananymous function expression type 
 
@@ -869,14 +869,14 @@ console.log(obj1)
 1. They automatically bind to the this value of the enclosing scope.
 2. Arrow functions automatically inherit the this value of the enclosing lexical scope
 
-## Use of for of and for in (refer 19_for_of_for_in)
+## 19. Use of for of and for in (refer 19_for_of_for_in)
 #### **for of:-**
 The for...of statement executes a loop that operates on a sequence of values sourced from an iterable object. Iterable objects include instances of built-ins such as Array, String, TypedArray, Map, Set, NodeList
 
 #### **for...in:-**
 The for...in statement iterates over all enumerable string properties of an object (ignoring properties keyed by symbols), including inherited enumerable properties.
 
-## **ForEach() method**
+## **20. ForEach() method**
 
 The forEach() method of Array instances executes a provided function once for each array element. 
 
@@ -894,7 +894,7 @@ The index of the current element being processed in the array.
 array
 The array forEach() was called upon.
 
-## Map, Filter and Reduce Method
+## 21. Map, Filter and Reduce Method
 
 #### **1. map() method:-** 
 The map() method of Array instances creates a new array populated with the results of calling a provided function on every element in the calling array.
